@@ -140,21 +140,59 @@ public class HolaMundo1 {
         System.out.println("edad = " + (edad + 1));
         var valorPI = Double.parseDouble("3.1416");
         System.out.println("valorPI= " + valorPI);*/
-        
         //Pedir un valor 
-        var entrada = new Scanner(System.in);
-        /*System.out.println("Digite su edad: ");
-        edad = Integer.parseInt (entrada.nextLine());
-        System.out.println("edad = " + edad); 
+        /* var entrada = new Scanner(System.in);
+        System.out.println("Digite su edad: ");
+        edad = Integer.parseInt(entrada.nextLine());
+        System.out.println("edad = " + edad);
         //Conversion de tipos primitivos en Java parte 2
         var edadTexto = String.valueOf(10);
-        System.out.println("edadTexto = " + edadTexto);*/
-        
+        System.out.println("edadTexto = " + edadTexto);
+
         var fraseChar = "programadores".charAt(12); //12 para que muestre las 12 letras
         System.out.println("fraseChar = " + fraseChar);
-        
+
         System.out.println("Digite un caracter : ");
         fraseChar = entrada.nextLine().charAt(0);
-        System.out.println("fraseChar= " + fraseChar);
+        System.out.println("fraseChar= " + fraseChar); */
+        //Operadores aritmeticos CLASE 7
+        int num1 = 5, num2 = 4;
+        var solucion = num1 + num2;
+        System.out.println("Solucion de la suma = " + solucion);
+        solucion = num1 - num2;
+        System.out.println("Solucion de la resta = " + solucion);
+        solucion = num1 * num2;
+        System.out.println("Solucion de la multiplicacion = " + solucion);
+
+        var solucion2 = 3.4D / num2;
+        System.out.println("solucion2 resultado de la division = " + solucion2);
+
+        solucion = num1 % num2;//Guarda el residuo entero de la division
+        System.out.println("solucion= " + solucion); // 5/4
+
+        if (num1 % 2 == 0) 
+            System.out.println("Es un numero Par"); //No tiene llaves xq tiene una sola linea de bloque
+        else 
+            System.out.println("Es un numero Impar"); //Segunda linea de codigo 
+        
+        //Ejercicio
+        int varNum1 = 1, varNum2 = 4;
+        int varNum3 = varNum1 + 6 - varNum2; //Una operacion
+        System.out.println("varNum3= " + varNum3);
+        
+        varNum1 += 1; //varNum1 = varNum1 +1;
+        System.out.println("varNum1= " + varNum1);
+        
+        //Tarea: -= , *= , /=, %= 
+        varNum1 -= 1;
+        System.out.println("varNum1= " + varNum1);
+        varNum1 *= 1;
+        System.out.println("varNum1= " + varNum1);
+        varNum1 /= 1;
+        System.out.println("varNum1= " + varNum1);
+        varNum1 %= 1;
+        System.out.println("varNum1= " + varNum1);
+        
+        
     }
 }
