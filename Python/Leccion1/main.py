@@ -117,6 +117,7 @@ print(resultado)
 resultado = d >= b
 print(resultado)
 """
+"""
 #Operadores Logicos
 a= False
 b= True
@@ -205,6 +206,11 @@ if edadPersona >= edadAdulto:
     print(f"Su edad es: {edadPersona} años, usted es mayor de edad")
 else:
     print (f"Su edad es: {edadPersona} años, usted es menor de edad")
+"""
+
+
+
+
 
 
 
