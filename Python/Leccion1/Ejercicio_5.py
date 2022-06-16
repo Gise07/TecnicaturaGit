@@ -1,4 +1,4 @@
-#Ejercicio Sistema de calificaciones
+#Ejercicio Sistema de calificaciones 5:
 
 num = int(input("Digite una calificacion"))
 texto = ""

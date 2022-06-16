@@ -1,4 +1,4 @@
-#Ejercicio: Calcular estacion del año
+#Ejercicio 3: Calcular estacion del año
 
 mesDelAño = int(input("Digite un mes del año"))
 if (mesDelAño >= 1 and mesDelAño <= 3) :
