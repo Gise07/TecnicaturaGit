@@ -296,7 +296,7 @@ public class HolaMundo1 {
         System.out.println("solucionAritmetica = " + solucionAritmetica);
         
         solucionAritmetica = (4 + 5) * 6 / 3; */
-  
+       
     }
 
 }
