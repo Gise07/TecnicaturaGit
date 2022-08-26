@@ -1,4 +1,4 @@
-"""
+
 # Clase dos variables
 miVariable = 3
 print(miVariable)
