@@ -284,6 +284,67 @@ conjunto1 = frozenset #Esto hace que el conjunto sea totalmente inmutable
 #No se puede agregar, modoficar ni eliminar elementos del conjunto
 """
 
+#Repaso Diccionarios
+diccionarioNuevo = {"Azul": "Blue", "Rojo": "Red","Verde": "Green","Amarillo":"Yellow"}
+print(diccionarioNuevo)
+#Como eliminar
+del (diccionarioNuevo['Azul'])
+print(diccionarioNuevo)
+
+#Los diccionarios pueden almacenar diferentes tipos de datos
+diccionario2 = {"Gisela": {"Edad": 22,"Altura": 1.55},"Facundo": [24,1.80],"Lucas": [20,1.70]}
+print(diccionario2)
+
+seleccionArgentina = {
+    10: {'Nombre': 'Lionel Messi', 'Edad': 35, 'Altura': 1.70,'Precio': '50 Millones', 'Posicion': 'Extremo derecho '}
+    11: {'Nombre': 'Angel di maria', 'Edad': 34, 'Altura': 1.80,'Precio': '12 Millones', 'Posicion': 'Extremo derecho '}
+    24: {'Nombre': 'Paulo Dybala', 'Edad': 28, 'Altura': 1.77,'Precio': '35 Millones', 'Posicion': 'Media punta'}
+    19: {'Nombre': 'Nicolas Otamendi', 'Edad': 34, 'Altura': 1.83,'Precio': '3.5 Millones', 'Posicion': 'Defensa central '}
+    1: {'Nombre': 'Franco Armani', 'Edad': 35, 'Altura': 1.89,'Precio': '4 Millones', 'Posicion': 'Portero'}
+}
+print(seleccionArgentina.values()) #Esta funcion es para ver los valores
+
+for llave,valor in seleccionArgentina.items(): #Funcion para recorrer todos los valores
+    print(llave,valor)
+    #Si ponemos solo valor nos muestra los valores
+
+print('Tenemos cargados en el diccionario la cantidad de jugadores: ',end=' ')
+print(len(seleccionArgentina))
+
+#Pilas usando listas
+pila = [1,2,3]
+
+#Agregar elementos a la pila por el final
+pila.append(4)
+pila.append(5)
+print(pila)
+
+#Sacamos elementos por el final
+elementoBorrado = pila.pop() #Quita el ultimo elemento y lo guarda en la variable
+print(f'Sacamos el elemento {elementoBorrado}')
+print(f'La pila ahora quedo asi: {pila}')
+
+#Colas con listas
+#Estructura de datos de tipo fifo(firt input / firt output)
+cola = ['Gisela','Facundo','Lucas']
+
+#Agregamos elemento al final de la cola
+cola.append('Cecilia')
+cola.append('Jose')
+print(cola)
+
+#Sacamos elementos de la cola
+seRetira = cola.pop(0)
+print(f'Atendido el cliente {seRetira}')
+print(cola)
+
+seRetira = cola.pop(0)
+print(f'Atendido el cliente {seRetira}')
+print(cola) #Se van retirando uno por uno...
+
+
+
+
 
 
 
