@@ -342,6 +342,10 @@ seRetira = cola.pop(0)
 print(f'Atendido el cliente {seRetira}')
 print(cola) #Se van retirando uno por uno...
 
+#Recorremos un diccionario
+
+for i in seleccionArgentina:
+    print(f'{i} -> {seleccionArgentina[i]}')
 
 
 
