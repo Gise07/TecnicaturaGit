@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da89ead3-3538-4166-b501-45644ca03868" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Ejercicio01Listas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio02Listas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio03Listas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio04.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio05.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EjercicioColecciones1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EjercicioColecciones3.py" beforeDir="false" afterPath="$PROJECT_DIR$/EjercicioColecciones3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio05.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio05.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
